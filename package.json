@@ -1,6 +1,6 @@
 {
   "name": "react-children-proptype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validates React children",
   "scripts": {
     "build": "npm run build:babel && npm run build:copy-files",
