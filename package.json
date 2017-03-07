@@ -1,0 +1,42 @@
+{
+  "name": "react-children-proptype",
+  "version": "0.0.1",
+  "description": "Validates React children",
+  "scripts": {
+    "build": "npm run build:babel && npm run build:copy-files",
+    "build:babel": "babel src -d build/lib",
+    "build:copy-files": "babel-node ./scripts/copy-files.js",
+    "dev": "babel -w src -d build/lib",
+    "clean": "rimraf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/sgnh/react-children-proptype.git"
+  },
+  "bugs": {
+    "url": "https://www.github.com/sgnh/react-children-proptype/issues"
+  },
+  "keywords": [
+    "react",
+    "proptype"
+  ],
+  "author": "Steffen Hansen",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-react": "^6.23.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "fs-extra": "^2.0.0",
+    "react": "^15.4.2",
+    "rimraf": "^2.6.1"
+  }
+}
