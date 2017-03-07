@@ -3,7 +3,7 @@
 This is a simple package for validating React children.
 
 ## Example
-```JavaScript
+```javascript
 import childrenPropType from 'react-children-proptype';
 
 const MyComponent = ({children}) => (
