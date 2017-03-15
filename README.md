@@ -2,6 +2,11 @@
 
 This is a simple package for validating React children.
 
+## Installation
+```
+npm install --save react-children-proptype
+```
+
 ## Example
 ```javascript
 import childrenPropType from 'react-children-proptype';
