@@ -1,6 +1,6 @@
 {
   "name": "react-children-proptype",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Validates React children",
   "scripts": {
     "build": "npm run build:babel && npm run build:copy-files",
@@ -23,7 +23,7 @@
   "author": "Steffen Hansen",
   "license": "MIT",
   "peerDependencies": {
-    "prop-types": "^15.5.1",    
+    "prop-types": "^15.5.1",
     "react": "^15.0.0"
   },
   "private": true,
