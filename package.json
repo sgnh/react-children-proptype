@@ -23,6 +23,7 @@
   "author": "Steffen Hansen",
   "license": "MIT",
   "peerDependencies": {
+    "prop-types": "^15.5.1",    
     "react": "^0.14.0 || ^15.0.0"
   },
   "private": true,
